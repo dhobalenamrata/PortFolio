@@ -213,7 +213,6 @@
       </div>
     </div>
 
-
     <!--------------education session end here----------->
    
     <!----------------career objective session start here------------>

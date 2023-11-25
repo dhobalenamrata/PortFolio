@@ -330,7 +330,7 @@
 
         $sql=mysqli_query($conection,$result);
         if($result){
-            echo '<script>alert("Thank you Contacting me !")</script>';    
+            echo "<script>alert('Thank you Contacting me !')</script>";    
         }
         else{
         die( mysqli_connect_error());

@@ -5,11 +5,15 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'poppins';
+    scroll-behavior: smooth;    
  }
  ::selection{
     background-color: rgba(250, 138, 213, 0.7);
     color: #344150;
  }
+section{
+    width: 100%;
+}
 /********* header Session started here***********/
 header{
     background-color:  #ddcdec ;

@@ -208,6 +208,7 @@
                 Grades - 63%
             </div>           
         </div>
+            
         <!-- SSC education end -->
 
       </div>
@@ -317,7 +318,7 @@
     <h1 id="contact" class="title cnt-title">
         Contact me
     </h1>
-<!--
+
     <?php     
         include("config.php");
         if(isset($_POST['submit'])) {	
@@ -337,7 +338,7 @@
         }
         }
       ?>  
--->
+
     <div class="contact-wrapper">
         <form method='POST' class="contact-container">
             <input type="text" name="name" id="name" placeholder="Your Name" required>

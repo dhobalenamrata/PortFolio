@@ -14,7 +14,7 @@
 section{
     width: 100%;
 }
-/********* header Session started here***********/
+/********* header section started here***********/
 header{
     background-color:  #ddcdec ;
 }
@@ -39,9 +39,9 @@ header{
     bottom: 30px;
     background-color: #565555;
   }
-/********* header Session end here ***********/
+/********* header section end here ***********/
 
-/********* Nav Session started ***********/
+/********* Nav section started ***********/
 nav{
     backdrop-filter: blur(5px);
     height: 80px;
@@ -151,21 +151,20 @@ a.active,a:hover{
     }
 }
 
-/*********** Nav Session end *************/
-/******** Home Session Sterted here ***********/
+/*********** Nav section end *************/
+/******** Home section Sterted here ***********/
 .home-container{
     width: 100%;
-    width: auto;
     display: grid;  
     justify-content: start;
-    padding-left :150px; 
+    padding-left: 150px; 
 }
 .heading-1{
     width: 100%;
     font-size: 75px;
     margin-top: 150px;
     font-weight: 300;
-    color: #000;
+    color: #000 ;
 }
 .typewrite{
     max-width: 1000px;
@@ -230,9 +229,10 @@ nav ul li a {
         font-size: 22px;
     }
 }
-/************** Home Session end **************/
-/**********About Session started here************/
+/************** Home section end **************/
+/**********About section started here************/
 #about{
+    width: 100%;
     margin: 70px auto;
     display: grid;
     justify-content: center;
@@ -363,9 +363,10 @@ table button:active{
         font-size: 25px;
     }
 }
-/****************About Session end here******************/
-/************Education Session started here**************/
+/****************About section end here******************/
+/************Education section started here**************/
 #education{
+    width: 100%;
     margin-top: 50px;
 }
 .education-container{
@@ -450,12 +451,14 @@ table button:active{
         font-size: 15px;
     }    
 }
-/**************Education Session end here****************/
-/***************skills Session start here****************/
+/**************Education section end here****************/
+/***************skills section start here****************/
 .skills-title{
+    width: 100%;
     margin-top: 45px;
 }
 .skills-container{
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -514,9 +517,10 @@ table button:active{
         font-size: 30px;
     }
 }
-/*******************skills Session end here****************/
-/*************Career Objective Session start here****************/
+/*******************skills section end here****************/
+/*************Career Objective section start here****************/
 .cr-ob-container{
+    width: 100%;
     display: grid;
     justify-items: center;
     margin-top: 65px;
@@ -550,9 +554,10 @@ table button:active{
     }
 }
 
-/*****************Career Objective Session end here****************/
-/*****************Hobbies Session started here****************/
+/*****************Career Objective section end here****************/
+/*****************Hobbies section started here****************/
 .hobbies-container{
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
@@ -636,12 +641,14 @@ table button:active{
         justify-self: end;
     }
 }
-/*******************Hobbies Session end here******************/
-/*******************contact Session started here******************/
+/*******************Hobbies section end here******************/
+/*******************contact section started here******************/
 .cnt-title{
+    width: 100%;
     margin-top: 45px;
 }
 .contact-wrapper{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -773,8 +780,8 @@ table button:active{
         font-size: 18px;
     }
 }
-/**********************contact Session end here******************/
-/*********************footer Session started here******************/
+/**********************contact section end here******************/
+/*********************footer section started here******************/
 .footer-container{
     width: 100%;
     height: 50%;
@@ -882,4 +889,4 @@ footer a.logo2{
     }
 
 }
-/***********************footer Session end here******************/
+/***********************footer section end here******************/

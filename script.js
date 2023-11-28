@@ -1,4 +1,5 @@
 // When the user scrolls down 20px from the top of the document, show the button
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -15,7 +16,8 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-}
+}  */
+
 ///////////////// Text animation section started //////////////////////////////////////////////
 
 var TxtType = function(el, toRotate, period) {

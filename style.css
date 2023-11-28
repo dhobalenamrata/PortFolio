@@ -263,6 +263,7 @@ nav ul li a {
 }
 table{
     width: 100%;
+    text-align: left;
 }
 table tr td {
     width: 10%;
@@ -273,8 +274,7 @@ table tr td span{
     color: #686666;
 }
 table tr td p{
-    font-size: 22px;
-    
+    font-size: 22px;    
 }
 .cv{
     text-align: center;

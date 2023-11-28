@@ -242,6 +242,7 @@ nav ul li a {
  h1.title{
     font-size: 60px;
     font-weight: 200;
+     text-align: center;
 }
 #about p{
     width: 100%;

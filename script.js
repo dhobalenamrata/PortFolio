@@ -59,6 +59,7 @@ window.onload = function() {
 /////////////////// Text animation section end //////////////////////////////////////////////
 /////////////////// onscroll navigation section started /////////////////////////////////////
 
+/*
 let sec = document.querySelectorAll('section');
         let links = document.querySelectorAll('nav a');
 
@@ -76,7 +77,7 @@ let sec = document.querySelectorAll('section');
                 })
               }
             })
-        };
+        };   */
 
 ///////////////////// onscroll navigation section end ////////////////////////////////
 //////////////////// onscrolltop function started here ///////////////////////////////

@@ -235,15 +235,13 @@ nav ul li a {
     width: 100%;
     margin: 70px auto;
     display: grid;
-    justify-content: center;
+    justify-items: center;
     text-align: center;
     gap: 20px;
-    background-color: red;
 }
  h1.title{
     font-size: 60px;
     font-weight: 200;
-    text-align: center;
 }
 #about p{
     width: 100%;

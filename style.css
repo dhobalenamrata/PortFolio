@@ -209,7 +209,6 @@ nav ul li a {
 
 @media (max-width:858px){
     .home-container{
-        min-width: 350px;
         padding-left: 20px;
     }   
     label.logo1{

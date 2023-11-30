@@ -16,6 +16,7 @@ section{
 }
 /********* header section started here***********/
 header{
+    width: 100%;
     background-color:  #ddcdec ;
 }
 

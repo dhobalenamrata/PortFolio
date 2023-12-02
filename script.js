@@ -89,7 +89,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     //mybutton.style.display = "block";
-    document.getElementById("nav").style.background = "red"; /*rgba(255, 255, 255,0.8)*/
+    document.getElementById("nav").style.background = "rgba(255, 87, 51.0.8)"; /*rgba(255, 255, 255,0.8)*/
     document.getElementById("myBtn").style.display="block";
   } else {
     document.getElementById("nav").style.background = "transparent";

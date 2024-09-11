@@ -277,6 +277,10 @@ table tr td span{
 table tr td p{
     font-size: 22px;    
 }
+table tr td p a{
+    color : black;
+    text-decoration : none;    
+}
 .cv{
     text-align: center;
 }

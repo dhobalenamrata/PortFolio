@@ -283,6 +283,7 @@ table tr td p a{
 }
 table tr td p a:hover{
     text-decoration : underline; 
+    background : transparent;
 }
 .cv{
     text-align: center;

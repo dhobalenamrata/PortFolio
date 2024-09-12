@@ -102,3 +102,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }  
 /////////////////////////// onscrolltop function end here /////////////////////////////////////
+
+function contactMe(){
+  alert("Sorry buddy, Currently there is no any databese connectivity for this site so that your message will not to me. If you want to contact me, then please contact me on my contact details, which I have mentioned in about session.\nThank You.");
+}

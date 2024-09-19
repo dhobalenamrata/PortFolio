@@ -104,5 +104,5 @@ function topFunction() {
 /////////////////////////// onscrolltop function end here /////////////////////////////////////
 
 function contactMe(){
-  alert("Sorry buddy, currently No database connectivity. Please use the contact details in the About section to reach me.");
+  alert("Sorry buddy, currently there is no database connectivity. \nPlease use the contact details in the About section to reach me.");
 }

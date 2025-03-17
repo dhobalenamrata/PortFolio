@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#main {
+    width: 700px;
+    height: 400px;
+    border: 1px solid black;
+    overflow: auto;
+}
+#content {
+    width: 10000px;
+    height: 10000px;
+    overflow: hidden;
+}
+
+.inner-content {
+    width: 900px;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div id="content">
+        <div id="1" class="inner-content">1</div>
+        <div id="2" class="inner-content">2</div>
+        <div id="3" class="inner-content">3</div>
+        <div id="4" class="inner-content">4</div>
+        <div id="5" class="inner-content">5</div>
+        <div id="6" class="inner-content">6</div>
+        <div id="7" class="inner-content">7</div>
+        <div id="8" class="inner-content">8</div>
+    </div>
+</div>
+
+<script>
+    var prev_id;
+
+$('#main').scroll(function(){
+
+    var element_width = 400;
+    var offset = $('#content').offset();
+    var positive =  Math.abs(offset.left)
+    var divided = positive / element_width;
+    var round = Math.round(divided);
+
+    var current_element = $('#content').children().eq(round);
+    var id = current_element.attr('id');
+
+    if(id != prev_id){
+        prev_id = id;
+        alert(id);
+    }
+
+});
+</script>
+</body>
+</html>
